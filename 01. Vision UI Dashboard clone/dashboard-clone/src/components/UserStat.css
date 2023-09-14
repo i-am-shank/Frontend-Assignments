@@ -1,0 +1,27 @@
+.user-stat {
+    @apply my-3 mx-1 flex flex-col gap-2;
+}
+
+.user-stat-top {
+    @apply flex gap-2 items-center;
+}
+
+.user-stat-bottom {
+    @apply flex flex-col gap-1;
+}
+
+.user-stat-icon {
+    @apply bg-blue-600 w-fit px-2 py-1 rounded-lg;
+}
+
+.user-stat-title {
+    @apply opacity-90 text-sm;
+}
+
+.user-stat-bar {
+    @apply my-auto;
+}
+
+.user-stat-num {
+    @apply font-bold text-xl;
+}

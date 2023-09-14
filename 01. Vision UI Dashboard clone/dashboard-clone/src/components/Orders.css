@@ -1,0 +1,11 @@
+.Orders {
+    @apply flex gap-6 my-5;
+}
+
+.orders-title {
+    @apply font-semibold tracking-tight;
+}
+
+.orders-time {
+    @apply opacity-60 text-[13px];
+}

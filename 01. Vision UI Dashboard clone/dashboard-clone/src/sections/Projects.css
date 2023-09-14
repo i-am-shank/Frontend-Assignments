@@ -1,0 +1,7 @@
+.projects {
+    @apply text-white;
+}
+
+.projects-content-heading {
+    @apply flex flex-row gap-8;
+}

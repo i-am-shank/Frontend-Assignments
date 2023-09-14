@@ -1,0 +1,15 @@
+.footer-wrapper {
+    @apply max-w-[92%] mx-auto py-11;
+}
+
+.footer {
+    @apply text-white flex flex-col justify-center items-center lg:flex-row lg:justify-between;
+}
+
+.footer-left-icon {
+    @apply ml-1 mr-3;
+}
+
+.footer-right {
+    @apply flex gap-6 justify-center items-center;
+}

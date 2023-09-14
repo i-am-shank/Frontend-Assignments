@@ -1,0 +1,51 @@
+.satisfaction-rate-wrapper {
+    @apply text-white py-6;
+}
+
+.satisfaction-rate {
+    @apply bg-blue-950 max-w-[92%] mx-auto rounded-xl px-4 py-4;
+}
+
+.sr-top {
+    @apply flex flex-col gap-1;
+}
+
+.sr-title {
+    @apply font-bold text-lg;
+}
+
+.sr-subtitle {
+    @apply text-sm opacity-60;
+}
+
+.sr-content {
+    @apply relative py-6 flex justify-center items-center w-full;
+}
+
+.sr-graph-wrapper {
+    @apply absolute mx-auto mb-20;
+}
+
+.sr-bottom-wrapper {
+    @apply w-full mx-auto mt-24 relative;
+}
+
+.sr-bottom {
+    @apply flex justify-between bg-gray-900 w-[85%] px-6 py-2 rounded-2xl mx-auto;
+}
+
+.sr-bottom-mid {
+    @apply flex flex-col items-center justify-center;
+}
+
+.sr-bottom-percent {
+    @apply font-bold text-3xl;
+}
+
+.sr-bottom-para {
+    @apply text-xs opacity-60;
+}
+
+.sr-bottom-sides {
+    @apply opacity-60 text-sm;
+}

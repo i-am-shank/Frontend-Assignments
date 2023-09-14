@@ -1,0 +1,35 @@
+.active-users-parent {
+    @apply py-6;
+}
+
+.active-users-wrapper {
+    @apply max-w-[92%] mx-auto bg-blue-950 rounded-2xl;
+}
+
+.active-users {
+    @apply py-6 pl-6 text-white;
+}
+
+.active-users-text {
+    @apply my-6;
+}
+
+.active-users-title {
+    @apply font-bold text-xl;
+}
+
+.active-users-subtitle {
+    @apply flex gap-1 items-center;
+}
+
+.active-users-subtitle-num {
+    @apply text-green-500;
+}
+
+.active-users-subtitle-text {
+    @apply opacity-90 text-sm;
+}
+
+.active-users-cards {
+    @apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4;
+}

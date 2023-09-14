@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.cirlc-progress-wrapper {
+    @apply p-4;
+}
+
+.circle-progress {
+    @apply h-[160px] w-[160px] relative;
+}
+
+.outer {
+    @apply h-[160px] w-[160px] rounded-[50%] p-5;
+}
+
+.inner {
+    @apply h-[120px] w-[120px] rounded-[50%] flex justify-center items-center;
+}
+
+.circle-text2 {
+    @apply text-white flex flex-col justify-center items-center bg-blue-600 rounded-[100%] w-fit h-fit p-2;
+}
+
+.circle-para {
+    @apply text-xs font-semibold opacity-60;
+}
+
+.circle-header {
+    @apply font-bold;
+}
+
+circle {
+    @apply fill-none stroke-[url(#GradientColor)] stroke-[20];
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+svg {
+    @apply absolute top-0 left-0;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 230;
+    }
+}

@@ -1,0 +1,43 @@
+.referral-tracking-wrapper {
+    @apply max-w-[92%] mx-auto py-4;
+}
+
+.referral-tracking {
+    @apply text-white flex flex-col gap-8 bg-blue-950 px-4 py-4 rounded-2xl;
+}
+
+.rt-top {
+    @apply flex justify-between items-center w-full font-bold text-xl;
+}
+
+.rt-more {
+    @apply bg-gray-600 py-1 px-2 rounded-xl;
+}
+
+.rt-content {
+    @apply w-full flex flex-col items-start md:flex-row md:items-center md:justify-between;
+}
+
+.rt-text {
+    @apply flex flex-col gap-6 pl-4;
+}
+
+.rt-card {
+    @apply md:bg-gray-900 md:px-6 md:py-4 rounded-xl flex flex-col gap-1;
+}
+
+.rt-card-para {
+    @apply opacity-70;
+}
+
+.rt-card-title {
+    @apply font-bold text-lg flex gap-1 md:gap-0 md:flex-col;
+}
+
+.rt-graph-wrapper {
+    @apply mx-auto;
+}
+
+.rt-graph {
+    @apply relative mx-auto md:mx-0 mb-4 scale-125 md:scale-100;
+}

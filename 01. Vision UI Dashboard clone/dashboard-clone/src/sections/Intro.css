@@ -1,0 +1,40 @@
+.Intro-wrapper {
+    @apply py-6;
+}
+
+.Intro {
+    @apply text-white bg-cover rounded-lg max-w-[92%] mx-auto px-6 py-10 bg-opacity-10;
+    background-image: url("../assets/jellyfish2.jpg");
+}
+
+.Intro-content {
+    @apply flex flex-col justify-between items-start;
+}
+
+.Intro-text {
+    @apply flex flex-col gap-2;
+}
+
+.Intro-top {
+    @apply text-sm opacity-60;
+}
+
+.Intro-heading {
+    @apply text-3xl font-bold;
+}
+
+.Intro-para {
+    @apply opacity-60 mt-2;
+}
+
+.Intro-btn {
+    @apply text-sm mt-20 cursor-pointer flex items-center justify-center gap-2;
+}
+
+.Intro-btn:hover {
+    @apply gap-3 transition-all duration-100;
+}
+
+.Intro-btn-text {
+    @apply tracking-tight;
+}

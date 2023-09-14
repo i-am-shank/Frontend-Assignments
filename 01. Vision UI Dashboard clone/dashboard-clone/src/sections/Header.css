@@ -1,0 +1,59 @@
+.header-wrapper {
+    @apply max-w-[92%] mx-auto;
+}
+
+.header {
+    @apply text-white md:flex md:justify-between md:items-center pt-10 pb-6 tracking-tight leading-3;
+}
+
+.left-header-top {
+    @apply text-sm font-semibold flex items-center gap-2;
+}
+
+.left-header-bottom {
+    @apply font-bold text-lg mb-2 md:mb-0;
+}
+
+.home-icon {
+    @apply cursor-pointer;
+}
+
+.right-header {
+    @apply flex justify-between md:justify-center gap-3 items-center;
+}
+
+.right-header-icons {
+    @apply flex gap-2 md:gap-3 items-center cursor-pointer;
+}
+
+.input-box {
+    @apply bg-blue-950 w-fit border-gray-500 border-[1px] rounded-3xl flex items-center justify-center pl-3 h-fit;
+}
+
+.search-icon-div {
+    @apply pr-2;
+}
+
+.search-bar {
+    @apply bg-blue-950 pr-0 rounded-r-3xl text-sm py-2;
+}
+
+.search-bar:focus {
+    @apply border-2 border-blue-950 pl-2;
+}
+
+.sign-in {
+    @apply font-semibold tracking-tighter hidden sm:inline;
+}
+
+.menu-large {
+    @apply inline sm:hidden lg:inline;
+}
+
+.menu-small {
+    @apply hidden sm:inline lg:hidden;
+}
+
+.setting-icon {
+    @apply hidden sm:inline;
+}

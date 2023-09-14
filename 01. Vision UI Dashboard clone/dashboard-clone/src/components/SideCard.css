@@ -1,0 +1,23 @@
+.side-card {
+    @apply bg-[url("../assets/side-card-bg.jpg")] w-fit px-3 py-6 rounded-2xl bg-opacity-30 flex flex-col gap-3;
+}
+
+.side-card-icon {
+    @apply bg-white bg-opacity-90 w-fit px-1 py-1 flex justify-center items-center rounded-lg mb-1;
+}
+
+.side-card-btn {
+    @apply bg-gray-700 bg-opacity-70 px-9 py-2 rounded-xl text-xs tracking-widest font-semibold cursor-pointer;
+}
+
+.side-card-btn:hover {
+    @apply scale-[102%] transition-all duration-200 ease-in;
+}
+
+.side-card-subtitle {
+    @apply text-xs font-semibold tracking-wide;
+}
+
+.side-card-title {
+    @apply font-semibold text-lg;
+}

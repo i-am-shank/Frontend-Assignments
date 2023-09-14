@@ -1,0 +1,27 @@
+.OrdersOverview-wrapper {
+    @apply max-w-[92%] mx-auto py-6;
+}
+
+.OrdersOverview {
+    @apply text-white tracking-tight bg-blue-950 pt-5 pb-6 pl-6 rounded-2xl;
+}
+
+.orders-subheading {
+    @apply flex items-center gap-1;
+}
+
+.orders-subheading-icon {
+    @apply -mt-1;
+}
+
+.orders-heading {
+    @apply font-bold text-xl;
+}
+
+.orders-subheading-text {
+    @apply opacity-60 text-sm;
+}
+
+.orders-subheading-percent {
+    @apply opacity-80;
+}
